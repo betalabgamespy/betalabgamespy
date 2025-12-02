@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
             e.stopImmediatePropagation();
             console.log('🔴 PS3 - Redirección forzada');
-            window.location.href = '/PEDIDOS/pedidosps3.html';
+            window.location.href = '../PEDIDOS/pedidosps3.html';
         }, true);
         
         console.log('✅ Botón PS3 configurado');
@@ -31,5 +31,6 @@ window.irAlCarrito = function() {
     window.location.href = '/PEDIDOS/pedidosps3.html';
     return false;
 };
+
 
 console.log('✅ carrito-ps3.js - ÚLTIMO SCRIPT CARGADO');
