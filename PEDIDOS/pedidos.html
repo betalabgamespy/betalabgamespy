@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos - Carrito</title>
+    <link rel="stylesheet" href="pedidos.css">
+</head>
+<body>
+    <form class="formulario-pedidos" id="formPedidos">
+        <h1 class="titulo-formulario">🛒 Pedir Videojuegos</h1>
+        
+        <!-- Sección del Carrito -->
+        <div class="seccion-carrito" id="infoJuego">
+            <h3>🎮 Juegos en tu Carrito:</h3>
+            <p id="nombreJuego">Cargando carrito...</p>
+            <div id="resumen-carrito"></div>
+        </div>
+
+        <!-- Información del Cliente -->
+        <div class="seccion-formulario">
+            <h3>👤 Información Personal</h3>
+            
+            <div class="grupo-formulario">
+                <label for="nombre">Nombre <span class="requerido">*</span></label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="apellido">Apellido <span class="requerido">*</span></label>
+                <input type="text" id="apellido" name="apellido" required placeholder="Tu apellido">
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="telefono">Teléfono <span class="requerido">*</span></label>
+                <input type="tel" id="telefono" name="telefono" required placeholder="0993 574 822">
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="email">Email <span class="requerido">*</span></label>
+                <input type="email" id="email" name="email" required placeholder="tu@email.com">
+            </div>
+        </div>
+
+        <!-- Datos Bancarios -->
+        <div class="seccion-formulario">
+            <h3>💳 Transferencia Bancaria</h3>
+            
+            <div class="info-bancaria">
+                <div class="datos-bancarios">
+                    <h4>📊 Datos para transferencia:</h4>
+                    <div class="cuenta-bancaria">
+                        <div class="dato-bancario">
+                            <span class="etiqueta">Banco:</span>
+                            <span class="valor">UENO BANK</span>
+                        </div>
+                        <div class="dato-bancario">
+                            <span class="etiqueta">Tipo de Cuenta:</span>
+                            <span class="valor">Cuenta de Ahorro</span>
+                        </div>
+                        <div class="dato-bancario">
+                            <span class="etiqueta">Número de Cuenta:</span>
+                            <span class="valor">619935527</span>
+                        </div>
+                        <div class="dato-bancario">
+                            <span class="etiqueta">CI:</span>
+                            <span class="valor">6525197</span>
+                        </div>
+                        <div class="dato-bancario">
+                            <span class="etiqueta">Titular:</span>
+                            <span class="valor">Gonzalo Rojas</span>
+                        </div>
+                        <div class="dato-bancario">
+                            <span class="etiqueta">Monto a Transferir:</span>
+                            <span class="valor" id="monto-valor">0 Gs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RECORDATORIO DEL COMPROBANTE -->
+            <div class="recordatorio-comprobante">
+                <div class="icono-alerta">📎</div>
+                <div class="texto-alerta">
+                    <h4>IMPORTANTE: Adjuntar Comprobante</h4>
+                    <p>Después de enviar este formulario, se abrirá Gmail. <strong>DEBES ADJUNTAR MANUALMENTE</strong> la foto del comprobante de transferencia antes de enviar el correo.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mensaje Adicional -->
+        <div class="seccion-formulario">
+            <h3>💬 Información Adicional</h3>
+            <div class="grupo-formulario">
+                <label for="mensaje">Mensaje o Instrucciones Especiales</label>
+                <textarea id="mensaje" name="mensaje" rows="3" 
+                          placeholder="¿Alguna instrucción especial, pregunta sobre los juegos o comentario adicional?"></textarea>
+            </div>
+        </div>
+
+        <div class="nota-importante">
+            <h4>📝 Pasos a Seguir:</h4>
+            <p>1. ✅ Realiza la transferencia bancaria</p>
+            <p>2. 📸 Toma una foto del comprobante</p>
+            <p>3. 📧 Envía este formulario (se abrirá Gmail)</p>
+            <p>4. 📎 <strong>ADJUNTA MANUALMENTE</strong> el comprobante en Gmail</p>
+            <p>5. 📩 Envía el correo con el comprobante adjunto</p>
+            <p>• Tu pedido será procesado en 24 horas</p>
+        </div>
+
+        <button type="submit" class="btn-enviar">
+            📧 Abrir Gmail para Enviar Pedido
+        </button>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Procesando solicitud...</p>
+        </div>
+
+        <div class="mensaje-exito" id="mensajeExito">
+            ✅ ¡Pedido enviado correctamente! Te contactaremos dentro de 24 horas.
+        </div>
+    </form>
+</body>
+<script src="formulario.js"></script>
+</html>

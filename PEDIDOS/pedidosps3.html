@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos - Carrito</title>
+    <link rel="stylesheet" href="pedidosps3.css">
+</head>
+<body>
+    <form class="formulario-pedidos" id="formPedidos">
+        <h1 class="titulo-formulario">🛒 Pedir Videojuegos PS3</h1>
+        
+        <!-- Sección del Carrito -->
+        <div class="seccion-carrito" id="infoJuego">
+            <h3>🎮 Juegos en tu Carrito:</h3>
+            <p id="nombreJuego">Cargando carrito...</p>
+            <div id="resumen-carrito"></div>
+        </div>
+
+        <!-- Información de Instalación -->
+        <div class="info-instalacion">
+            <h4>📍 Información de Instalación</h4>
+            <div class="detalles-instalacion">
+                <div class="dato-instalacion">
+                    <span class="etiqueta">📍 Ubicación:</span>
+                    <span class="valor ubicacion-destacada">Ciudad de Itauguá</span>
+                </div>
+                <div class="dato-instalacion">
+                    <span class="etiqueta">🎮 Requisito:</span>
+                    <span class="valor">Traer consola PS3</span>
+                </div>
+                <div class="dato-instalacion">
+                    <span class="etiqueta">⏰ Proceso:</span>
+                    <span class="valor">Dejar la consola y luego pasar a retirar</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Información del Cliente -->
+        <div class="seccion-formulario">
+            <h3>👤 Información Personal</h3>
+            
+            <div class="grupo-formulario">
+                <label for="nombre">Nombre <span class="requerido">*</span></label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="apellido">Apellido <span class="requerido">*</span></label>
+                <input type="text" id="apellido" name="apellido" required placeholder="Tu apellido">
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="telefono">Teléfono <span class="requerido">*</span></label>
+                <input type="tel" id="telefono" name="telefono" required placeholder="0993 574 822">
+            </div>
+
+            <div class="grupo-formulario">
+                <label for="email">Email <span class="requerido">*</span></label>
+                <input type="email" id="email" name="email" required placeholder="tu@email.com">
+            </div>
+        </div>
+
+        <!-- Instrucciones de Instalación -->
+        <div class="instrucciones-importantes">
+            <h4> Instrucciones Importantes</h4>
+            <p>Para completar la instalación de tus juegos, necesitamos que sigas estos pasos:</p>
+            <ul class="lista-instrucciones">
+                <li>✅ Trae tu consola PS3 físicamente a Itauguá</li>
+                <li>⏰ Coordinaremos el horario y lugar de instalación</li>
+                <li>🎮 Debe dejar la consola y luego volver a retirarla</li>
+                <li>📞 Te contactaremos para coordinar los detalles</li>
+            </ul>
+            <p><strong>Nota:</strong> Es imprescindible que traigas tu consola PS3 para poder instalar los juegos.</p>
+        </div>
+
+        <!-- Mensaje Adicional -->
+        <div class="seccion-formulario">
+            <h3>💬 Información Adicional</h3>
+            <div class="grupo-formulario">
+                <label for="mensaje">Mensaje o Información Adicional</label>
+                <textarea id="mensaje" name="mensaje" rows="3" 
+                        placeholder="¿Disponibilidad horaria? ¿Preguntas sobre los juegos? ¿Alguna indicación especial para la instalación?"></textarea>
+                <span class="texto-ayuda">Ej: "Disponible los fines de semana", "Consola con firmware 4.90", etc.</span>
+            </div>
+        </div>
+
+        <button type="submit" class="btn-enviar">
+            📧 Enviar Pedido y Coordinar Instalación
+        </button>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Procesando solicitud...</p>
+        </div>
+
+        <div class="mensaje-exito" id="mensajeExito">
+            ✅ ¡Pedido enviado correctamente! Te contactaremos para coordinar la instalación en Itauguá.
+        </div>
+    </form>
+</body>
+<script src="formulariops3.js"></script>
+</html>
+

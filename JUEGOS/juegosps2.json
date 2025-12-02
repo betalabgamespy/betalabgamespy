@@ -1,0 +1,71 @@
+{
+    "jeugosps2": [
+        {
+            "id": 1,
+            "Nombre": "Pendrive con 4 juegos",
+            "precio": "90.000",
+            "imagen": "https://th.bing.com/th/id/R.3cf70bd2ffbcc48b58ff83ca66511245?rik=LOXUGd2KNsu4qQ&pid=ImgRaw&r=0"
+        },
+        {
+            "id": 2,
+            "Nombre": "Pendrive con 9 juegos",
+            "precio": "125.000",
+            "imagen": "https://i.pinimg.com/1200x/fc/18/6c/fc186c101d42fd98c3e7a63fd0b18ca5.jpg"
+        },
+        {
+            "id": 3,
+            "Nombre": "Pendrive con 14 juegos",
+            "precio": "155.000",
+            "imagen": "https://tse2.mm.bing.net/th/id/OIP.IIWkniUqOHqVHG3oS1xmogHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+        },
+        {
+            "id": 4,
+            "Nombre": "Pendrive con 20 juegos",
+            "precio": "190.000",
+            "imagen": "https://tse1.mm.bing.net/th/id/OIP.6IsWxekoxyyTXYggriKmEgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+        },
+        {
+            "id": 5,
+            "Nombre": "Pendrive con 25 juegos",
+            "precio": "230.000",
+            "imagen": "https://tse1.mm.bing.net/th/id/OIP.6IsWxekoxyyTXYggriKmEgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+        },
+        {
+            "id": 6,
+            "Nombre": "Pendrive con 30 juegos",
+            "precio": "265.000",
+            "imagen": "https://tse1.mm.bing.net/th/id/OIP.6IsWxekoxyyTXYggriKmEgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+        },
+        {
+            "id": 7,
+            "Nombre": "Control Marca PG PS2",
+            "precio": "85.000",
+            "imagen": "https://www.topdekinformatica.com.br/img/m/IMG_161568_1.JPG?v=1764682719"
+        },
+        {
+            "id": 8,
+            "Nombre": "Control Marca Sony PS2",
+            "precio": "105.000",
+            "imagen": "https://http2.mlstatic.com/D_NQ_NP_414215-MPE25165438482_112016-O.webp"
+        },
+        {
+            "id": 9,
+            "Nombre": "Memory Card con OPL",
+            "precio": "100.000",
+            "imagen": "https://tse1.mm.bing.net/th/id/OIP.Y8bIq3pU5Q7YTUutTWad6gHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+        },
+        {
+            "id": 10,
+            "Nombre": "Cable AV",
+            "precio": "50.000",
+            "imagen": "https://tse2.mm.bing.net/th/id/OIP.4N8oRqCdeXn80Df14A5GBQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+        },
+        {
+            "id": 10,
+            "Nombre": "Cable de energía",
+            "precio": "50.000",
+            "imagen": "https://tse2.mm.bing.net/th/id/OIP.EClhNHsSiUYbseoihJvSZgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+        }
+    ]
+
+}

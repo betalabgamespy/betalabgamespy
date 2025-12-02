@@ -1,0 +1,179 @@
+{
+    "juegosps4": [
+        {
+            "id": 1,
+            "nombre": "FC 26 Ult. Edition PS4-PS5",
+            "precio": "390.000 ",
+            "precio_antiguo": "500.000 Gs",
+            "imagen": "https://i.pinimg.com/1200x/3c/08/a6/3c08a6a2bc6e25d55679b15a75def3b6.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "RE 2 Ult. Edition PS4-PS5",
+            "precio": "185.000 ",
+            "precio_antiguo": "500.000 Gs",
+            "imagen": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/3zDubiWo2X5WU18FGiwlsf4lKWb8MwkE.png?w=780&thumb=false"
+        },
+        {
+            "id": 3,
+            "nombre": "MK 1 D. Edition PS5",
+            "precio": "185.000 ",
+            "precio_antiguo": "500.000 Gs",
+            "imagen": "https://juegosdigitalesmexico.mx/files/images/productos/1747846747-mortal-kombat-1-definitive-edition-ps5-0.webp"
+        },
+        {
+            "id": 4,
+            "nombre": "The división 2 Gold PS4",
+            "precio": "120.000 ",
+            "precio_antiguo": "700.000 Gs",
+            "imagen": "https://cdn1.epicgames.com/03ecca4e19a9483aa05b3d99948c43ce/offer/TCRPG_GE_Store_Portrait_1200x1600-1200x1600-4883caff678dfccf7994a6202685cfd2.jpg"
+        },
+        {
+            "id": 5,
+            "nombre": "Combo COD PS4",
+            "precio": "130.000 ",
+            "precio_antiguo": "450.000 Gs",
+            "imagen": "https://i.pinimg.com/1200x/69/92/10/699210176a16561e80cad41658a12b85.jpg"
+        },
+        {
+            "id": 6,
+            "nombre": "Far Cry 6 Gold PS4-PS5",
+            "precio": "130.000 ",
+            "precio_antiguo": "500.000 Gs",
+            "imagen": "https://www.baba.es/24338-large_default/ps4-far-cry-6-gold-edition.jpg"
+        },
+        {
+            "id": 7,
+            "nombre": "Far Cry 6 Deluxe PS4-PS5",
+            "precio": "130.000 ",
+            "precio_antiguo": "500.000",
+            "imagen": "https://tse1.mm.bing.net/th/id/OIP.lcUsX2eAgBRn1wC6hhUgWQHaJ4?rs=1&pid=ImgDetMain&o=7&rm=3"
+        },
+        {
+            "id": 8,
+            "nombre": "Bully PS4",
+            "precio": "145.000 ",
+            "precio_antiguo": "450.000 Gs",
+            "imagen": "https://tse3.mm.bing.net/th/id/OIP.oBLXdyEMVW6DbgOKXMV2xgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+        },
+        {
+            "id": 9,
+            "nombre": "Assasin´s Creed Unity PS4",
+            "precio": "140.000 ",
+            "precio_antiguo": "480.000 Gs",
+            "imagen": "https://i.pinimg.com/1200x/1e/c4/01/1ec401ed859858cc3dac0a197005a224.jpg"
+        },
+        {
+            "id": 10,
+            "nombre": "Assasin´s Creed Origins Deluxe PS4",
+            "precio": "140.000 ",
+            "precio_antiguo": "450.000 Gs",
+            "imagen": "https://i.pinimg.com/736x/94/a1/73/94a173181ef48c78f8b002a634ec2a71.jpg"
+        },
+        {
+            "id": 11,
+            "nombre": "Far Cry 5 PS4",
+            "precio": "140.000 ",
+            "precio_antiguo": "480.000 Gs",
+            "imagen": "https://i.pinimg.com/1200x/c5/48/83/c5488332eed100e6d80b3a2190663fdd.jpg"
+        },
+        {
+            "id": 12,
+            "nombre": " Resident Evil 5 PS4",
+            "precio": "110.000 ",
+            "precio_antiguo": "460.000 Gs",
+            "imagen": "https://i.pinimg.com/1200x/5b/ba/a4/5bbaa41a62499b75ffd1810daa2e16b6.jpg"
+        },
+        {
+            "id": 13,
+            "nombre": "COD Advanced Warfare Gold PS4",
+            "precio": "250.000 ",
+            "precio_antiguo": "490.000 Gs",
+            "imagen": "https://i.pinimg.com/736x/72/63/c8/7263c8f4e83911923fda8187ba9c2351.jpg"
+        },
+        {
+            "id": 14,
+            "nombre": "Resident evil 6 PS4",
+            "precio": "110.000 ",
+            "precio_antiguo": "450.000 Gs",
+            "imagen": "https://i.pinimg.com/736x/2a/17/05/2a1705c0243e13cbbc0e5f76ebaf3014.jpg"
+        },
+        {
+            "id": 15,
+            "nombre": "Mad Max PS4",
+            "precio": "110.000 ",
+            "precio_antiguo": "480.000 Gs",
+            "imagen": "https://i.pinimg.com/1200x/15/52/c7/1552c74fcf1a213a2a5f0880786df6b5.jpg"
+        },
+        {
+            "id": 16,
+            "nombre": "COD Cold War PS4",
+            "precio": "250.000 ",
+            "precio_antiguo": "490.000 Gs",
+            "imagen": "https://i.pinimg.com/736x/bb/3a/15/bb3a1565048dc42e2e61073fff3a1795.jpg"
+        },
+        {
+            "id": 17,
+            "nombre": "Sniper Elite 4",
+            "precio": "110.000 ",
+            "precio_antiguo": "450.000 Gs",
+            "imagen": "https://i.pinimg.com/736x/a5/be/36/a5be366364a0aae939b2e8584eddaf2f.jpg"
+        },
+        {
+            "id": 18,
+            "nombre": "Re Nemesis PS4",
+            "precio": "130.000 ",
+            "precio_antiguo": "450.000 Gs",
+            "imagen": "https://i.pinimg.com/736x/83/cf/e0/83cfe04753e990d7a2b07fa14029ac10.jpg"
+        },
+        {
+            "id": 19,
+            "nombre": "RE 2 PS4",
+            "precio": "110.000 ",
+            "precio_antiguo": "450.000 Gs",
+            "imagen": "https://i.pinimg.com/736x/65/f8/c0/65f8c0fe5218ce7ce16d7e2058b6c4d9.jpg"
+        },
+        {
+            "id": 20,
+            "nombre": "Far Cry 3 PS4",
+            "precio": "130.000 ",
+            "precio_antiguo": "470.000 Gs",
+            "imagen": "https://i.pinimg.com/736x/c3/c0/35/c3c03588cf0688a908747bbe01848755.jpg"
+        },
+        {
+            "id": 21,
+            "nombre": "Resident Evil 4 PS4",
+            "precio": "130.000 ",
+            "precio_antiguo": "450.000 Gs",
+            "imagen": "https://i.pinimg.com/1200x/b4/39/18/b439189fbc0817453c66f1db18d89e3c.jpg"
+        },
+        {
+            "id": 22,
+            "nombre": "Suicide squad Deluxe PS5",
+            "precio": "125.000 ",
+            "precio_antiguo": "490.000 Gs",
+            "imagen": "https://i.pinimg.com/1200x/f2/32/5a/f2325a1ec731e02bccc0df9d62982d4a.jpg"
+        },
+        {
+            "id": 22,
+            "nombre": "NFS Deluxe PS4",
+            "precio": "140.000 ",
+            "precio_antiguo": "460.000 Gs",
+            "imagen": "https://i.pinimg.com/736x/a6/73/99/a673993758500e81d7177faa37ccecc1.jpg"
+        },
+        {
+            "id": 23,
+            "nombre": "Just Cause 4 Complete E PS4",
+            "precio": "140.000 ",
+            "precio_antiguo": "450.000 Gs",
+            "imagen": "https://tse2.mm.bing.net/th/id/OIP.W0-JT0l1ki5LvZPnfRlFZQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+        },
+        {
+            "id": 24,
+            "nombre": "Gost Of Tsushima PS4",
+            "precio": "140.000 ",
+            "precio_antiguo": "600.000 Gs",
+            "imagen": "https://tse3.mm.bing.net/th/id/OIP.MrIBpVdU9_7gzrhprXhMzQHaI9?rs=1&pid=ImgDetMain&o=7&rm=3"
+        }
+    ]
+}

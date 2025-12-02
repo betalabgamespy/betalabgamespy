@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="pedidosps2.css">
+</head>
+<body>
+    <form class="formulario-pedidos" id="formPedidos">
+    <h1 class="titulo-formulario">🎮 Pedir Videojuegos</h1>
+    
+    <!-- Sección que muestra automáticamente el juego -->
+    <div class="info-juego" id="infoJuego">
+        <h3>🕹️ Pendrive Seleccionado:</h3>
+        <p id="nombreJuego">Buscando información del juego...</p>
+    </div>
+
+    <!-- BOTÓN VACIAR CARRITO - SIEMPRE VISIBLE -->
+    <div class="seccion-vaciar-carrito" id="seccionVaciarCarrito" style="display: none;">
+        <button type="button" class="btn-vaciar-carrito" onclick="vaciarCarrito()" id="btnVaciarCarrito">
+            🗑️ Vaciar Carrito
+        </button>
+        <small class="texto-ayuda">Eliminar todos los juegos del carrito</small>
+    </div>
+
+    <!-- Información del Cliente -->
+    <div class="seccion-formulario">
+        <h3>👤 Información Personal</h3>
+        
+        <div class="grupo-formulario">
+            <label for="nombre">Nombre <span class="requerido">*</span></label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+        </div>
+
+        <div class="grupo-formulario">
+            <label for="apellido">Apellido <span class="requerido">*</span></label>
+            <input type="text" id="apellido" name="apellido" required placeholder="Tu apellido">
+        </div>
+
+        <div class="grupo-formulario">
+            <label for="telefono">Número de Teléfono <span class="requerido">*</span></label>
+            <input type="tel" id="telefono" name="telefono" required placeholder="0993 574 822">
+        </div>
+
+        <div class="grupo-formulario">
+            <label for="email">Correo Electrónico <span class="requerido">*</span></label>
+            <input type="email" id="email" name="email" required placeholder="tu@email.com">
+        </div>
+    </div>
+
+    <!-- Selección de Juegos para PS2 -->
+    <div class="seccion-formulario">
+        <h3>🎯 Juegos que Desea para PS2</h3>
+        
+        <!-- Mensaje importante sobre juegos no disponibles -->
+        <div class="alerta-importante">
+            <h4>⚠️ Importante: Juegos No Disponibles</h4>
+            <p>Actualmente <strong>NO tenemos disponible</strong> los siguientes juegos:</p>
+            <ul>
+                <li>God of War 1</li>
+                <li>God of War 2</li>
+                <li>Call of Duty 3</li>
+            </ul>
+            <p>Luego todos los juegos de ps2 estan disponibles</p>
+        </div>
+
+        <div class="grupo-formulario">
+            <label for="juegosPS2">Lista de juegos a cargar <span class="requerido">*</span></label>
+            <textarea id="juegosPS2" name="juegosPS2" rows="4" required placeholder="Ejemplo:
+• GTA San Andreas
+• Need for Speed Most Wanted
+• Winning Eleven
+• Crash Bandicoot
+• Tekken 5
+
+"></textarea>
+            <small class="texto-ayuda">Puedes escribir múltiples juegos, uno por línea <p> ¡OJO! Elige la cantidad de juegos dependiendo del pendrive elegido</p></small>
+        </div>
+    </div>
+
+    <!-- Mensaje Adicional -->
+    <div class="seccion-formulario">
+        <h3>💬 Información Adicional</h3>
+        <div class="grupo-formulario">
+            <label for="mensaje">Mensaje o Instrucciones Especiales</label>
+            <textarea id="mensaje" name="mensaje" rows="3" 
+                    placeholder="¿Alguna instrucción especial, pregunta sobre el juego o comentario adicional?"></textarea>
+        </div>
+    </div>
+
+    <div class="nota-importante">
+        <h4>📝 Importante:</h4>
+        <p>• <strong>Nos comunicaremos contigo en el transcurso del día</strong> para que puedas realizar la transferencia</p>
+        <p>• Necesitamos tu ubicación exacta para calcular el costo de envío de tu producto</p>
+        <p>• El envío tiene un costo adicional que varía según tu ubicación</p>
+        <p>• Una vez confirmado todo, te enviaremos los datos bancarios para la transferencia</p>
+    </div>
+
+    <button type="submit" class="btn-enviar">
+        🚀 Enviar Solicitud de Compra
+    </button>
+
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+        <p>Procesando solicitud...</p>
+    </div>
+
+    <div class="mensaje-exito" id="mensajeExito">
+        ✅ ¡Solicitud enviada correctamente! <strong>Nos comunicaremos contigo en el transcurso del día</strong> para coordinar el envío y enviarte los datos para la transferencia.
+    </div>
+</form>
+</body>
+<script src="formulariops2.js"></script>
+</html>

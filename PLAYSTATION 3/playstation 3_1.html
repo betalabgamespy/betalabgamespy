@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playstation 3</title>
+    <link rel="stylesheet" href="playstation 3.css">
+</head>
+
+<!-- Botón flotante del carrito -->
+<div class="carrito-flotante" id="carritoFlotante">
+    <button type="button" class="btn-carrito-flotante" onclick="toggleCarritoFlotante()">
+        🛒
+        <span class="contador-carrito-flotante" id="contadorCarritoFlotante">0</span>
+    </button>
+    <div class="mini-carrito-flotante" id="miniCarritoFlotante">
+        <div class="header-mini-carrito">
+            <h4>Tu Carrito</h4>
+            <span class="total-mini-carrito" id="totalMiniCarrito">0 Gs</span>
+        </div>
+        <div class="contenido-mini-carrito" id="contenidoMiniCarrito">
+            <!-- Los productos se cargarán aquí -->
+        </div>
+        <div class="footer-mini-carrito">
+    <button type="button" class="btn-ver-carrito-completo" onclick="irAlCarrito()">
+        Ver Carrito Completo PS3
+    </button>
+</div>
+    </div>
+</div>
+
+<body>
+    <!--Botton flotante-->
+    <div class="floating-contact-tooltip">
+        <button type="button" class="floating-btn-tooltip" onclick="toggleTooltipMenu()">
+            <span class="btn-icon">👥</span>
+        </button>
+        
+        <div class="contact-tooltip-menu" id="tooltipMenu">
+            <div type="button" class="tooltip-item" onclick="openWhatsApp()">
+                <span class="tooltip-icon"><img src="/ICONOSGLOBALES/icono-whats.png" alt=""></span>
+                <span class="tooltip-text">WhatsApp</span>
+                <div class="tooltip">Chatear por WhatsApp</div>
+            </div>
+            <div type="button" class="tooltip-item" onclick="sendEmail()">
+                <span class="tooltip-icon"><img src="/ICONOSGLOBALES/icono-insta.png" alt=""></span>
+                <span class="tooltip-text">Instagram</span>
+                <div class="tooltip">Seguir en Instagram</div>
+            </div>
+            <div type="button" class="tooltip-item" onclick="sendEmail()">
+                <span class="tooltip-icon"><img src="/ICONOSGLOBALES/icono-face.png" alt=""></span>
+                <span class="tooltip-text">Facebook</span>
+                <div class="tooltip">Seguir en Facebook</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Este es el header -->
+    <header class="header1">
+        <img class="Logoinicio" src="/ICONOSGLOBALES/logo 1.png" alt="Logo">
+        <h4 class="nombremarca1">BETALAB</h4>
+        <h4 class="nombremarca2">GAMES</h4>
+        <h4 class="nombremarca3">PY</h4>
+    </header>
+
+    <!--Buscador -->
+    <div class="buscador-container">
+        <input type="text" 
+        id="buscador-real-time" 
+        placeholder="🔍 Buscar videojuego...">
+        <div id="resultados-real-time" class="resultados-container"></div>
+    </div>
+
+    <header class="header2">
+        <div>
+            <a type="button" class="navegador" href="/index.html" class="nav-link">INICIO</a>
+            <a type="button" class="navegador" href="/PLAYSTATION 2/playstation 2.html" class="nav-link">PS2</a>
+            <a type="button" class="navegador" href="/PLAYSTATION 3/playstation 3_1.html" class="nav-link">PS3</a>
+        </div>
+    </header>
+
+    <!-- Contenedor para los juegos del JSON -->
+    <div id="juegos-ps3-container">
+        <!-- Los juegos se cargarán automáticamente aquí -->
+    </div>
+
+    <!-- Paginación DINÁMICA - Los botones se generarán automáticamente -->
+    <div class="paginacion">
+        <!-- Los botones de paginación se crearán automáticamente aquí -->
+    </div>
+
+    <footer class="footer-basico">
+        <div class="contenido-footer">
+            <p>&copy; 2024 BetalabGamesPy. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="/GLOBALE/btncarrito.js"></script>
+    <script src="/GLOBALE/btn_flotante.js"></script>
+    <script src="/GLOBALE/comprar.js"></script>
+    <script src="/GLOBALE/buscador-global.js"></script>
+    <script src="/GLOBALE/carrusel.js"></script>
+    <script src="paginacion.js"></script>
+    <script src="/GLOBALE/juegosps3.js"></script>
+    <script src="carrito-ps3.js"></script>
+    
+</body>
+</html>
