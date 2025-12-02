@@ -16,7 +16,7 @@ class TiendaPS4 {
     async cargarJuegos() {
         try {
             console.log('🔄 Cargando juegos PS4/PS5...');
-            const response = await fetch('JUEGOS/juegosps4.json');
+            const response = await fetch('../JUEGOS/juegosps4.json');
             
             if (!response.ok) {
                 throw new Error(`Error HTTP: ${response.status}`);
@@ -198,4 +198,5 @@ document.addEventListener('DOMContentLoaded', () => {
     window.tiendaPS4 = new TiendaPS4();
 
 });
+
 
