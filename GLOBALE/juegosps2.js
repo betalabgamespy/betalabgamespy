@@ -16,7 +16,7 @@ class TiendaPS2 {
     async cargarJuegos() {
         try {
             console.log('🔄 Cargando juegos PS2...');
-            const response = await fetch('/JUEGOS/juegosps2.json');
+            const response = await fetch('../JUEGOS/juegosps2.json');
             
             if (!response.ok) {
                 throw new Error(`Error HTTP: ${response.status}`);
@@ -192,4 +192,5 @@ class TiendaPS2 {
 document.addEventListener('DOMContentLoaded', () => {
     console.log('🚀 Inicializando TiendaPS2...');
     window.tiendaPS2 = new TiendaPS2();
+
 });
