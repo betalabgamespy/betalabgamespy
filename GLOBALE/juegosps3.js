@@ -16,7 +16,7 @@ class TiendaPS3 {
     async cargarJuegos() {
         try {
             console.log('🔄 Cargando juegos...');
-            const response = await fetch('JUEGOS/juegosps3.json');
+            const response = await fetch('../JUEGOS/juegosps3.json');
             
             if (!response.ok) {
                 throw new Error(`Error HTTP: ${response.status}`);
@@ -194,4 +194,5 @@ document.addEventListener('DOMContentLoaded', () => {
     window.tiendaPS3 = new TiendaPS3();
 
 });
+
 
