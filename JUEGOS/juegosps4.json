@@ -174,6 +174,63 @@
             "precio": "140.000 ",
             "precio_antiguo": "600.000 Gs",
             "imagen": "https://tse3.mm.bing.net/th/id/OIP.MrIBpVdU9_7gzrhprXhMzQHaI9?rs=1&pid=ImgDetMain&o=7&rm=3"
+        },
+        {
+            "id": 25,
+            "nombre": "Killzone Shadow Fall PS4",
+            "precio": "105.000 ",
+            "precio_antiguo": "600.000 Gs",
+            "imagen": "https://i.pinimg.com/736x/66/eb/52/66eb52200a71bf124d71e7f87ba3ee10.jpg"
+        },
+        {
+            "id": 26,
+            "nombre": "Borderlands 3 PS4-PS5",
+            "precio": "90.000 ",
+            "precio_antiguo": "600.000 Gs",
+            "imagen": "https://i.pinimg.com/736x/93/36/b4/9336b49a71bce0fc291af058e9551e4f.jpg"
+        },
+        {
+            "id": 27,
+            "nombre": "Watch Dogs Legion PS4-PS5",
+            "precio": "90.000 ",
+            "precio_antiguo": "600.000 Gs",
+            "imagen": "https://i.pinimg.com/1200x/52/09/d7/5209d7c5a30aac744787e1a913b99cc1.jpg"
+        },
+        {
+            "id": 28,
+            "nombre": "Watch Dogs PS4",
+            "precio": "76.000 ",
+            "precio_antiguo": "600.000 Gs",
+            "imagen": "https://i.pinimg.com/736x/04/d1/5f/04d15fcb0a7b8d130e523b64ee3741ae.jpg"
+        },
+        {
+            "id": 29,
+            "nombre": "Far Cry 4 Gold PS4",
+            "precio": "100.000 ",
+            "precio_antiguo": "600.000 Gs",
+            "imagen": "https://i.pinimg.com/736x/0c/eb/7a/0ceb7ae40015dfb6ff04b6caa68acf80.jpg"
+        },
+        {
+            "id": 30,
+            "nombre": "Fallout 4 PS4",
+            "precio": "95.000 ",
+            "precio_antiguo": "600.000 Gs",
+            "imagen": "https://i.pinimg.com/1200x/d4/c9/bb/d4c9bb623d5b009f5fa4e5fda29cd929.jpg"
+        },
+        {
+            "id": 31,
+            "nombre": "Sahdow Of Colossus PS4",
+            "precio": "105.000 ",
+            "precio_antiguo": "600.000 Gs",
+            "imagen": "https://i.pinimg.com/736x/15/c0/b9/15c0b91b166157f5f8314841fe378e70.jpg"
+        },
+        {
+            "id": 31,
+            "nombre": "God Of War PS4",
+            "precio": "105.000 ",
+            "precio_antiguo": "600.000 Gs",
+            "imagen": "https://i.pinimg.com/736x/24/0c/19/240c192ccc500d8d35d05af0b9032618.jpg"
         }
     ]
+
 }
