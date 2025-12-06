@@ -3,7 +3,7 @@
         {
             "id": 1,
             "Nombre": "Pes 2026",
-            "precio": "40.000",
+            "precio": "60.000",
             "imagen": "https://i.pinimg.com/736x/33/fa/bc/33fabc13eed09bf65913369aa318f689.jpg"
         },
         {
@@ -485,7 +485,123 @@
             "Nombre": "COD Ghost",
             "precio": "40.000",
             "imagen": "https://romsfun.com/wp-content/uploads/2019/10/Ghosts-ps3.png"
+        },
+        {
+            "id": 84,
+            "Nombre": "Far Cry 2",
+            "precio": "40.000",
+            "imagen": "https://romsfun.com/wp-content/uploads/2019/10/far-cry-2-ps3.png"
+        },
+        {
+            "id": 85,
+            "Nombre": "Mundial 2010",
+            "precio": "40.000",
+            "imagen": "https://romsfun.com/wp-content/uploads/2020/01/South-Africa-ps3.jpg"
+        },
+        {
+            "id": 86,
+            "Nombre": "Pes 2011",
+            "precio": "40.000",
+            "imagen": "https://romsfun.com/wp-content/uploads/2019/10/Pro-Evolution-Soccer-2011-ps3.png"
+        },
+        {
+            "id": 87,
+            "Nombre": "Resident Evil Revelations",
+            "precio": "40.000",
+            "imagen": "https://romsfun.com/wp-content/uploads/2019/11/Revelations-ps3.jpg"
+        },
+        {
+            "id": 87,
+            "Nombre": "Assasin´s Creed Liberation",
+            "precio": "40.000",
+            "imagen": "https://romsfun.com/wp-content/uploads/2020/12/632d7378796a913338db1195dde37b09.jpg"
+        },
+        {
+            "id": 88,
+            "Nombre": "Darksiders II",
+            "precio": "40.000",
+            "imagen": "https://romsfun.com/wp-content/uploads/2019/10/Darksiders-II-ps3.png"
+        },
+        {
+            "id": 89,
+            "Nombre": "NFS Shift",
+            "precio": "40.000",
+            "imagen": "https://romsfun.com/wp-content/uploads/2019/10/Shift-ps3.png"
+        },
+        {
+            "id": 90,
+            "Nombre": "Wwe 2015",
+            "precio": "40.000",
+            "imagen": "https://romsfun.com/wp-content/uploads/2020/01/WWE-2K15-ps3.jpg"
+        },
+        {
+            "id": 91,
+            "Nombre": "Destinity",
+            "precio": "40.000",
+            "imagen": "https://romsfun.com/wp-content/uploads/2019/10/destiny-ps3.png"
+        },
+        {
+            "id": 92,
+            "Nombre": "Ghost Recon F. Soldier",
+            "precio": "40.000",
+            "imagen": "https://romsfun.com/wp-content/uploads/2020/01/Future-Soldier-ps3.png"
+        },
+        {
+            "id": 93,
+            "Nombre": "Fifa 15",
+            "precio": "40.000",
+            "imagen": "https://romsfun.com/wp-content/uploads/2019/10/fifa-15-ps3.jpg"
+        },
+        {
+            "id": 94,
+            "Nombre": "Wwe 2011",
+            "precio": "40.000",
+            "imagen": "https://romsfun.com/wp-content/uploads/2019/10/Yukes.jpg"
+        },
+        {
+            "id": 95,
+            "Nombre": "Limbo",
+            "precio": "40.000",
+            "imagen": "https://romsfun.com/wp-content/uploads/2019/10/limbo-ps3.jpg"
+        },
+        {
+            "id": 96,
+            "Nombre": "God of War II",
+            "precio": "40.000",
+            "imagen": "https://romsfun.com/wp-content/uploads/2023/07/God-of-War-II-HD.jpg"
+        },
+        {
+            "id": 97,
+            "Nombre": "Uncharted 3",
+            "precio": "40.000",
+            "imagen": "https://romsfun.com/wp-content/uploads/2023/07/Uncharted-3-Drakex27s-Deception-Special-Edition.jpg"
+        },
+        {
+            "id": 98,
+            "Nombre": "MOH Warfigther",
+            "precio": "40.000",
+            "imagen": "https://romsfun.com/wp-content/uploads/2019/10/Warfighter-ps3.png"
+        },
+        {
+            "id": 99,
+            "Nombre": "Fifa 09",
+            "precio": "40.000",
+            "imagen": "https://romsfun.com/wp-content/uploads/2019/10/FIFA-Soccer-09-ps3.png"
+        },
+        {
+            "id": 100,
+            "Nombre": "Pes 2017",
+            "precio": "40.000",
+            "imagen": "https://romsfun.com/wp-content/uploads/2020/11/tai-xuong.jpg"
+        },
+        {
+            "id": 101,
+            "Nombre": "Yakuza 3",
+            "precio": "40.000",
+            "imagen": "https://romsfun.com/wp-content/uploads/2020/11/Y3_Cover_GR.jpg"
         }
+        
     ]
 
 }
+
